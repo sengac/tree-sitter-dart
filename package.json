@@ -73,7 +73,6 @@
     "build-test": "tree-sitter generate && node-gyp build && tree-sitter test",
     "watch-test": "npm-watch test",
     "watch-grammar": "npm-watch build-test",
-    "install": "node-gyp-build",
     "prebuildify": "prebuildify --napi --strip"
   },
   "tree-sitter": [
