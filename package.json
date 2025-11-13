@@ -74,8 +74,7 @@
     "watch-test": "npm-watch test",
     "watch-grammar": "npm-watch build-test",
     "install": "node-gyp-build",
-    "prebuildify": "prebuildify --napi --strip",
-    "prebuild": "prebuildify -t 20.19.5"
+    "prebuildify": "prebuildify --napi --strip"
   },
   "tree-sitter": [
     {
@@ -84,7 +83,9 @@
         "dart"
       ],
       "highlights": "queries/highlights.scm",
-      "tags": ["queries/tags.scm"],
+      "tags": [
+        "queries/tags.scm"
+      ],
       "injection-regex": "dart"
     }
   ]
