@@ -6,8 +6,6 @@ on:
       - main
       - master
       - 'fix/**'
-    tags:
-      - '*'
   pull_request:
   workflow_dispatch:
 
