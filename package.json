@@ -1,6 +1,6 @@
 {
   "name": "tree-sitter-dart",
-  "version": ".1.0",
+  "version": ".2.0",
   "description": "Dart grammar attempt for tree-sitter",
   "main": "bindings/node",
   "types": "bindings/node",
