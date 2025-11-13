@@ -88,5 +88,8 @@
       ],
       "injection-regex": "dart"
     }
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }
