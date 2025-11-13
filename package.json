@@ -1,6 +1,6 @@
 {
   "name": "tree-sitter-dart",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Dart grammar attempt for tree-sitter",
   "main": "bindings/node",
   "types": "bindings/node",
@@ -74,7 +74,8 @@
     "watch-test": "npm-watch test",
     "watch-grammar": "npm-watch build-test",
     "install": "node-gyp-build",
-    "prebuildify": "prebuildify --napi --strip"
+    "prebuildify": "prebuildify --napi --strip",
+    "prebuild": "prebuildify --napi --strip --arch x64+arm64 --platform linux+darwin+win32"
   },
   "tree-sitter": [
     {
