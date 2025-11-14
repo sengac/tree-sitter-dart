@@ -1,6 +1,6 @@
 {
   "name": "@sengac/tree-sitter-dart",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Dart grammar attempt for tree-sitter",
   "main": "bindings/node",
   "types": "bindings/node",
@@ -33,7 +33,7 @@
     "node-gyp-build": "^4.8.0"
   },
   "peerDependencies": {
-    "tree-sitter": "^0.25.0"
+    "@sengac/tree-sitter": "^0.25.6"
   },
   "peerDependenciesMeta": {
     "tree_sitter": {
