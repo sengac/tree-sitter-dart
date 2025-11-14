@@ -1,6 +1,6 @@
 {
   "name": "@sengac/tree-sitter-dart",
-  "version": "0.25.12",
+  "version": "0.25.13",
   "description": "Dart grammar attempt for tree-sitter",
   "repository": "https://github.com/sengac/tree-sitter-dart",
   "main": "bindings/node",
